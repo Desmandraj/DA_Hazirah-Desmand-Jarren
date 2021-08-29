@@ -6,7 +6,7 @@ class NewSpider(scrapy.Spider):
     #Spider Name
     name = "new_spider"
     #Target Website
-    start_urls =   ['http://192.168.1.1/index.html']
+    start_urls = ['http://172.18.58.238 /index.html']
 
     #Define parser
     def parse(self, response):
